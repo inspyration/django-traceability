@@ -1,0 +1,151 @@
+# Python packages
+zope.component                           # Be inspired by some useful design patterns
+psycopg2                                 # We work with PostgreSQL
+pillow                                   # Image processing
+pygments                                 # syntax highlighting
+python-dateutil                          # Date useful tools
+pytz                                     # Time zones management
+sphinx                                   # Documentation purposes
+celery                                   # TODO
+kombu                                    # TODO
+redis                                    # TODO
+appypod                                  # OpenDocument TODO.
+
+# Quality
+pylint                                   # Primary syntax checking tool
+pep8                                     # Secondary syntax checking tool
+flake8                                   # Alternative syntax checking tool
+pydocstyle                               # Documentation syntax checking tool
+prospector[with_everything]              # Global analysis tool
+
+# Testing
+unittest2                                # TODO
+nose                                     # TODO
+unittest-xml-reporting                   # TODO
+pytest                                   # TODO
+pytest-django                            # TODO
+factory_boy                              # TODO
+fake-factory                             # TODO
+
+# Manipulating format
+simplejson                               # JSON
+anyjson                                  # JSON
+pyyaml                                   # YAML
+rinse                                    # SOAP
+lxml                                     # XML
+beautifulsoup4                           # HTML parsing (read HTML docs)
+html5lib                                 # HTML5
+slimit                                   # Javascript
+httplib2                                 # HTTP handler
+urllib3                                  # URL handler
+python-magic                             # Document format sniffer
+
+# Django
+Django
+
+# Configuration simplification
+django-configurations                    # Used to manage in a easy way several levels of configuration
+django-appconf                           # Used to configuration related to a specific App
+django-constance                         # Allow to have dynamic configuration
+
+# Security
+rules
+# django-axes # Keep track of Failed login
+# django-concurrency # Check that models aren't modified at the same time
+# up-parser # user-agent parsing (to check infos manually)
+# django-user_agents # Add user-agent information into request object
+# pycrypto # Cryptographic purposes
+# git+https://github.com/pennersr/django-jhouston # Cache JS errors and post them to the server
+# django-honeypot # Prevent automated spam
+# django-maintenancemode
+
+# Models
+django-polymorphic                       # Polymorphic
+django-safedelete                        # Mask instead of delete
+django-hvad                              # Translatable chosen over django-multilingual-ng
+django-extensions                        # Some useful models tweaks
+# django-model-utils # Some useful models tweaks
+# django-simpleimages
+# django-activity-stream # Generate activity streams on objects
+# paperclip # Add attachements to models
+# django-trackstats # Track statistics
+
+# Forms
+# django-crispy-forms
+# django-floppyforms
+# django-material # NON a remplacer par celui qui donne les CSS / JS sans rien mposer et utiliser crispy forms
+# django-selectable
+# django-select2
+# django-tinymce
+# Django-tinymce-filebrowser
+# django-filebrowser-no-grappelli
+# django-inplaceedit
+# django-inlinetrans
+# django-vatno-validator
+# django-parsley # client side data validation
+# django-addanother # Allow to have an "add another" button
+# django-envelope # Simple Contact form
+# django-qanda # Simple FAQ
+# django-form-utils # Some usefull enhancements
+# django_multifield_clean # Allow to clean fields with complex rules
+# git+https://github.com/tstone/django-uploadify # Ease upload of files
+# django-radiogrid
+# django-clearable-widget # Add a clear button near widgets
+# django-utilities
+
+# Admin
+django-admin-tools # Tools for admin interface
+# django-fluent-dashboard # Allow to create dashboard in admin interface
+# django-inline-actions # Add some actions to admin lists
+django-admin-watchdog # Register logs in the admin interface
+
+# Views
+django-extra-views
+django-datatable-view
+# django-geojson
+# django-sitetree # Manage site tree, menus and breadcrumbs  # Pas assez précis.
+# chosen over django-navutils django-tabination and bootstrap-breadcrumbs
+# django-treemenu # Dynamic menus
+# django-widgy # Tree editor
+# django-workflows
+# django-filter # Some tools (Filters, fields, widgets, ...)
+# django-pagemore # KISS Approach to a "Load more" style AJAX paginator
+# django-nvd3
+# django-export
+# git+https://github.com/SmileyChris/django-kanboard.git
+
+# Templates
+
+# django_admin_bootstrapped
+# django-bootstrap3
+# django-leaflet
+
+# Static
+django-compressor
+# django-bower
+# django-pipeline
+
+# REST
+# django-tastypie
+# django-tastypie-elasticsearch
+# django-rest-swagger
+
+# Asynchronous
+# django-celery
+
+# Search
+# django-haystack
+
+# Cache
+# django-cachalot # Cache for ORM
+# django-memoize # Cache for functions results
+# lru2cache # Other cache for functions
+# django-ultracache # To validate
+
+# Tools
+django-rosetta                           # Ease translation process
+django-appypod # Allow exporting to documents, !! Update to use appypod instead ob appy.pod
+
+# Monitoring
+# django-ping
+# netwell
