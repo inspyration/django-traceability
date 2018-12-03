@@ -1,0 +1,82 @@
+# dotfiles
+.*
+!.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.pstats
+
+# Translations
+*.mo
+*.pot
+
+# Logging stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# editors backup, swap or config files
+*~
+*.swp
+.project
+.pydevproject
+.settings
+.idea/
+gmon.out
+
+# Data directory
+/data
+
+# hg stuff
+*.orig
+status
+
+# odoo filestore
+openerp/filestore
+
+# generated for windows installer?
+install/win32/*.bat
+install/win32/meta.py
+
+# various virtualenv
+/bin/
+/include/
+/lib/
+/man/
+/share/
+/src/
+
+# Specific to this project
